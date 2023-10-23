@@ -1,5 +1,5 @@
 """
-WSGI config for atividade project.
+WSGI config for atv_6 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'atividade.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'atv_6.settings')
 
 application = get_wsgi_application()
